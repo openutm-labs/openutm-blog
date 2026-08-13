@@ -22,8 +22,10 @@ copyright = "OpenUTM Limited. All rights reserved."
 
 # Number of characters to show in summary.
 summaryLength = 25
-
+# YOUR SINGLE PARAMS BLOCK STARTS HERE
 [params]
+    disqusShortname = "" # Triggers legacy theme compatibility safely!
+    
     # Content types which are included in home page recent posts list.
     mainSections = ["articles"]
 
@@ -36,8 +38,8 @@ summaryLength = 25
     # Specify favicon (icons/i.png maps to static/icons/i.png). No favicon if not defined.
     favicon = "/icons/favicon.ico"
 
-    # Switch to dark mode or auto detect mode from OS.
-    mode = "auto" 
+    # Switch to dark mode or auto detect mode from OS (Optional).
+    mode = "auto"
 
 # Main menu which appears below site header.
 [[menu.main]]
@@ -73,5 +75,3 @@ url = "https://github.com/openutm"
 [services]
   disqus = ""
 
-[params]
-  disqusShortname = ""
