@@ -9,7 +9,7 @@ copyright = "OpenUTM Limited. All rights reserved."
 [pagination]
   pagerSize = 10
 
-# FIX: Explicitly structure disqus as an empty map block
+# Explicitly structure disqus as an empty map block
 [services]
   [services.disqus]
     shortname = "" 
@@ -53,24 +53,20 @@ weight = 2
 
 [[menu.main]]
 name = "About OpenUTM"
-url = "https://www.openutm.com"
+url = "https://openutm.com"
 weight = 3
 
 # Social media links which shows up on site header.
 [[params.social]]
 name = "Home"
 icon = "globe"
-url = "https://www.openutm.com"
+url = "https://openutm.com"
 
 [[params.social]]
 name = "Github"
 icon = "github"
-url = "https://github.com/openutm"
+url = "https://github.com"
 
 # Enable tags.
 [taxonomies]
    category = "categories"
-
-[services]
-  disqus = ""
-
