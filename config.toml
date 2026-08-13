@@ -1,4 +1,4 @@
-baseURL = "https://openutm.com"
+baseURL = "https://openutm.com/"
 languageCode = "en-us"
 title = "OpenUTM"
 theme = "hugo-ink"
