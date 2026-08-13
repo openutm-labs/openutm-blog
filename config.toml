@@ -1,20 +1,19 @@
-baseURL = "https://blog.openutm.com/"
+baseURL = "https://openutm.com"
 languageCode = "en-us"
 title = "OpenUTM"
 theme = "hugo-ink"
 
 copyright = "OpenUTM Limited. All rights reserved."
 
-# Modern Comment Configuration (Replaces old Disqus structure)
-[comment]
-  [comment.disqus]
-    shortname = "" # Leave blank or insert your Disqus shortname here
-
-# Modern Pagination Configuration (Replaces paginate = 10)
+# Modern configs
 [pagination]
   pagerSize = 10
 
-# Modern Markup / Raw HTML Configuration (Fixes the Goldmark warning)
+# FIX: Explicitly structure disqus as an empty map block
+[services]
+  [services.disqus]
+    shortname = "" 
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -22,9 +21,9 @@ copyright = "OpenUTM Limited. All rights reserved."
 
 # Number of characters to show in summary.
 summaryLength = 25
-# YOUR SINGLE PARAMS BLOCK STARTS HERE
+
 [params]
-    disqusShortname = "" # Triggers legacy theme compatibility safely!
+    disqusShortname = ""
     
     # Content types which are included in home page recent posts list.
     mainSections = ["articles"]
