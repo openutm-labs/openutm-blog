@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Mono|Suranna&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Marcellus&display=swap');
 
 body {
-    font-family: "Suranna", sans-serif;
+    font-family: "Marcellus", sans-serif;
     font-weight: 400;
     color: #333;
     line-height: 1.75em;
@@ -267,7 +267,7 @@ ul {
 .header .site-description {
     display: flex;
     font-size: 0.9em;
-    font-family: 'PT Mono', monospace;
+    font-family: 'DM Mono', monospace;
     justify-content: space-between;
 }
 
@@ -305,7 +305,7 @@ ul {
 }
 
 .header .site-description-extended {
-    font-family: 'PT Mono', monospace;
+    font-family: 'DM Mono', monospace;
     font-size: 14px;
     line-height: 1.5em;
     padding-top: 15px;
@@ -357,7 +357,7 @@ ul {
 }
 
 .post-header .meta .date .day {
-    font-family: "Playfair Display", serif;
+    font-family: "Marcellus", serif;
     font-weight: 700;
     line-height: 0.45em;
     font-size: 3em;
@@ -379,14 +379,14 @@ ul {
 }
 
 .post .description {
-    font-family: 'PT Mono', monospace;
+    font-family: 'DM Mono', monospace;
     font-size: 0.8em;
     line-height: 0.9em;
 }
 
 .markdown {
     font-size: 16px;
-    font-family: 'PT Mono', monospace;
+    font-family: 'DM Mono', monospace;
 }
 
 .post .post-header {
@@ -427,7 +427,7 @@ code {
 }
 
 .footer h3 {
-    font-family: "Suranna", sans-serif;
+    font-family: "Marcellus", sans-serif;
 }
 .footer {
     text-align: right;
@@ -436,7 +436,7 @@ code {
     margin: 0 auto;
     padding: 0px;
     padding-bottom: 50px;
-    font-family: 'PT Mono', monospace;
+    font-family: 'DM Mono', monospace;
 }
 
 .footer a {

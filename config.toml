@@ -1,9 +1,9 @@
-baseURL = "https://blog.openskies.sh/"
+baseURL = "https://blog.openutm.com/"
 languageCode = "en-us"
-title = "{open}skies.sh"
+title = "OpenUTM"
 theme = "hugo-ink"
 
-copyright = "Openskies Aerial Technology Limited. All rights reserved."
+copyright = "OpenUTM Limited. All rights reserved."
 
 # Enable syntax highlighting.
 pygmentsstyle = "solarized-dark"
@@ -64,8 +64,8 @@ url = "/categories"
 weight = 2
 
 [[menu.main]]
-name = "About Openskies"
-url = "https://www.openskies.sh"
+name = "About OpenUTM"
+url = "https://www.openutm.com"
 weight = 3
 
 
@@ -75,13 +75,13 @@ weight = 3
 [[params.social]]
 name = "Home"
 icon = "globe"
-url = "https://www.openskies.sh"
+url = "https://www.openutm.com"
 
 
 [[params.social]]
 name = "Github"
 icon = "github"
-url = "https://github.com/openskies-sh"
+url = "https://github.com/openutm"
 
 # Enable tags.
 [taxonomies]
