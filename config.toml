@@ -5,22 +5,25 @@ theme = "hugo-ink"
 
 copyright = "OpenUTM Limited. All rights reserved."
 
-# Enable syntax highlighting.
-pygmentsstyle = "solarized-dark"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
+# Modern Comment Configuration (Replaces old Disqus structure)
+[comment]
+  [comment.disqus]
+    shortname = "" # Leave blank or insert your Disqus shortname here
 
+# Modern Pagination Configuration (Replaces paginate = 10)
+[pagination]
+  pagerSize = 10
 
-# Number of posts to show in recent posts list (Optional). Defaults to 10.
-paginate = 10
+# Modern Markup / Raw HTML Configuration (Fixes the Goldmark warning)
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 # Number of characters to show in summary.
 summaryLength = 25
 
 [params]
-    # Blog subtitle which appears below blog title. Supports markdown.
-    # subtitle = "Opensource products and services for the drone ecosystem"
-
     # Content types which are included in home page recent posts list.
     mainSections = ["articles"]
 
@@ -33,26 +36,10 @@ summaryLength = 25
     # Specify favicon (icons/i.png maps to static/icons/i.png). No favicon if not defined.
     favicon = "/icons/favicon.ico"
 
-    # Switch to dark mode or auto detect mode from OS (Optional).
-    # "dark" will set mode to dark and "auto" will switch to dark mode if OS is in dark mode.
-    mode = "auto" # "dark" or "auto"
-
-    # Custom CSS added to default styles. Files added to `static` folder is copied as it is to
-    # root by Hugo. For example if you have custom CSS file under `static/css/custom.css` then
-    # you can specify custom css path as `css/custom.css`.
-    #customCSS = "css/custom.css"
-    # Custom CSS added to dark mode style.
-    #customDarkCSS = "css/custom-dark.css"
-
-
-
-    # Custom list of Javascript files to load. Just like custom CSS you can place js files under
-    # `static/js` folder and specify path here as `js/script-name.js`. You can also specify full url,
-    # for example you may want to include external JS library.
-    # customJS = ["js/abc.js", "js/xyz.js", "https://code.jquery.com/jquery-3.4.1.js"]
+    # Switch to dark mode or auto detect mode from OS.
+    mode = "auto" 
 
 # Main menu which appears below site header.
-
 [[menu.main]]
 name = "All Articles"
 url = "/articles"
@@ -68,15 +55,11 @@ name = "About OpenUTM"
 url = "https://www.openutm.com"
 weight = 3
 
-
-
 # Social media links which shows up on site header.
-# Uses feather icons for icons. You can [search icon names from here](https://feathericons.com/).
 [[params.social]]
 name = "Home"
 icon = "globe"
 url = "https://www.openutm.com"
-
 
 [[params.social]]
 name = "Github"
@@ -86,4 +69,3 @@ url = "https://github.com/openutm"
 # Enable tags.
 [taxonomies]
    category = "categories"
-   
