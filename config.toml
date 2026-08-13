@@ -69,3 +69,9 @@ url = "https://github.com/openutm"
 # Enable tags.
 [taxonomies]
    category = "categories"
+
+[services]
+  disqus = ""
+
+[params]
+  disqusShortname = ""
